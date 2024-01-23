@@ -6,3 +6,11 @@ function whyDoesDallasNotMakeTheSuperBowl() {
   document.getElementById("Dak").src = "dal.png";
   document.getElementById("Star").innerHTML = "Dak Prescott cannot throw!";
 }
+
+document
+  .getElementById("Star")
+  .addEventListener("mouseover", whyDoesDallasNotMakeTheSuperBowl);
+
+document
+  .getElementById("Dak")
+  .addEventListener("mouseout", reasonForDallasNotMakingSuperBowl);
