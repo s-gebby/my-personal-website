@@ -1,16 +1,7 @@
-function reasonForDallasNotMakingSuperBowl() {
-  document.getElementById("Dak").src = "dallas-cowboys-loss-49ers.png";
-  document.getElementById("Star").innerHTML = "Dak Prescott cannot throw!";
-}
-function whyDoesDallasNotMakeTheSuperBowl() {
-  document.getElementById("Dak").src = "dal.png";
-  document.getElementById("Star").innerHTML = "Dak Prescott cannot throw!";
+function setNewImage() {
+  document.getElementById("Star").src = "dallas-cowboys-loss-49ers.png";
 }
 
-document
-  .getElementById("Star")
-  .addEventListener("mouseover", whyDoesDallasNotMakeTheSuperBowl);
-
-document
-  .getElementById("Dak")
-  .addEventListener("mouseout", reasonForDallasNotMakingSuperBowl);
+function setOldImage() {
+  document.getElementById("Star").src = "dal.png";
+}
